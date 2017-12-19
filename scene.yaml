@@ -1,0 +1,13 @@
+import:
+  - 'basemaps/bubble-wrap-style.zip'
+  #- 'basemaps/cinnabar-style.zip'
+  #- 'basemaps/refill-style.zip'
+  #- 'basemaps/tron-style.zip'
+  #- 'basemaps/walkabout-style.zip'
+
+sources:
+   mapzen:
+       type: MVT
+       url:  http://localhost:8000/ny_mvt_0_15/all/{z}/{x}/{y}.mvt
+       tile_size: 512
+       max_zoom: 15
